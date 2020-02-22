@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS Digital Clock</title>
+	<link rel="stylesheet" href="style.css">
+   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+	<div id="bg">
+		<div id="sound"><i id="sound_icon" class="fas">&#xf6a9; <span>Unmute tick</span></i></div>
+		<div id="time_container">
+			<div class="time time_elem" id="hours"></div>
+			<div class="dot">:</div>
+			<div class="time time_elem " id="minutes"></div>
+			<div class="dot">:</div>
+			<div class="time time_elem" id="seconds"></div>
+			<div class="time" id="am_pm"></div>
+		</div>
+		<div id="date_container">
+			<div class="elem date date-com" id="day"></div>
+			<div class="elem date" id="date"></div>
+			<span id="position"></span>
+			<div class="elem date" id="month"></div>
+			<span class="elem" id="comma">,</span>
+			<div class="elem date date-com" id="year"></div>
+		</div>
+	</div>
+</body>
+<script src="script.js"></script>
+</html>
